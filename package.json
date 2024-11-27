@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "node esbuild.js",
-    "chrome": "web-ext run -s dist -t chromium --start-url https://example.com/",
+    "chrome": "web-ext run -s dist -t chromium --start-url https://www.amazon.co.jp/dp/B0CL4Q4RGS",
     "lint": "biome check --write src",
     "build": "NODE_ENV=production node esbuild.js"
   },

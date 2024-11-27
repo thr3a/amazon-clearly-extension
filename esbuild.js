@@ -6,7 +6,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 (async () => {
   const ctx = await context({
-    entryPoints: ['js', 'ts', 'tsx'].map((x) => `src/**/*.${x}`),
+    entryPoints: ['css'].map((x) => `src/**/*.${x}`),
     bundle: true,
     sourcemap: !isProduction,
     outdir: 'dist',

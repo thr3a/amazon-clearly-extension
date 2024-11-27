@@ -1,17 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "My Chrome Extension",
+  "name": "Amazon banana",
   "version": "1.0",
-  "description": "My Chrome Extension",
+  "description": "Amazon shibakari",
   "icons": {
     "16": "icons/icon-16.png",
     "48": "icons/icon-48.png",
     "128": "icons/icon-128.png"
   },
-  "permissions": [
-    "background",
-    "storage"
-  ],
   "action": {
     "default_icon": {
       "16": "icons/icon-16.png",
@@ -24,10 +20,10 @@
   "content_scripts": [
     {
       "matches": [
-        "https://example.com/*"
+        "https://www.amazon.co.jp/*"
       ],
-      "js": [
-        "context-script.js"
+      "css": [
+        "main.css"
       ]
     }
   ]

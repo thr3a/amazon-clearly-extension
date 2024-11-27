@@ -1,0 +1,22 @@
+#icon-farm {
+  display: none !important;
+}
+
+#price-block-container-0 {
+  display: none !important;
+}
+
+/* 税込の文字 */
+#taxInclusiveMessage {
+  display: none !important;
+}
+
+/* このページを検索 */
+#ask_feature_div {
+  display: none !important;
+}
+
+/* Amazonおすすめ */
+#acBadge_feature_div {
+  display: none !important;
+}
